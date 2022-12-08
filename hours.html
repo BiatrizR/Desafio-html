@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário de atendimento</title>
+</head>
+<body>
+    <div>
+        <font face="Papyrus" color="#ff7ae9" size="1">
+            <h1><a title="Voltar para tela inicial" href="index.html" target="_blank"><< Voltar</a></h1>
+        </font>
+       </div>
+    <div align="center">
+        <h1 style="color:#c104a5;">Corra para reservar um horário: </h1>
+        <h4>Nossa agenda:</h4>
+        <table summary="Horários da clinica" border="2" width="600" cellspacing="10" cellpadding="10" align="center">
+            <caption>Escolha dia e hora</caption>
+             <tbody>
+             <thead>
+                 <tr>
+                     <th>Serviços</th>
+                     <th>Segunda a sexta</th>
+                     <th>Sabados</th>
+                 </tr>
+             </thead>
+                 <tr>
+                     <td>Tratamento a Laser</td>
+                     <td>8h - 18h</td>
+                     <td>8h - 18h</td>
+                 </tr> 
+                 <tr>
+                    <td>Espelho espelho meu</td>
+                    <td>8h - 18h</td>
+                    <td>10h - 14h</td>
+                 </tr> 
+                 <tr>
+                    <td>Massagem hadouken</td>
+                    <td>8h - 18h</td>
+                    <td>10h - 15h</td>
+                 </tr> 
+                 <tr>
+                    <td>Tratamento Ninja</td>
+                    <td>8h - 18h</td>
+                    <td>10h - 14h</td>
+                 </tr> 
+                 <tr>
+                    <td>Tratamento a nitrogenio</td>
+                    <td>8h - 18h</td>
+                    <td> - </td>
+                 </tr>
+                 <tfoot>
+                     <td>Especiais escolher dia para análise</td>
+                     <td>-</td>
+                 </tfoot>
+             </tbody>
+         </table>
+
+         <div align="center">
+            <h1 style="color:#c104a5;">Corra para reservar um horário: </h1>
+            <form>
+            <h4> Marcar horário especial</h4>
+                <input type="radio" name="borda" value="sim">Sim <br>
+                <input type="radio" name="borda" value="nao">Não<br>  
+            <h4> Escolher dias:</h4>
+            <p>Selecione até 3 dias para verificarmos a disponibilidade de atendimento:</p>
+                <input type="checkbox" name="especial" value="Segunda"/> Segunda-Feira <br>
+                <input type="checkbox" name="especial" value="Terça"> Terça-Feira <br>
+                <input type="checkbox" name="especial" value="Quarta"> Quarta-Feira <br>
+                <input type="checkbox" name="especial" value="Quinta"> Quinta-Feira <br>
+                <input type="checkbox" name="especial" value="Sexta"> Sexta-Feira <br>
+           <br>
+            <button type="submit"> Enviar Pedido</button>
+        </form>
+         </div>
+         <style>
+             table tr:nth-child(even){
+                 background-color: #c104a5;
+             }
+             table tr:hover td {
+                 background-color: aqua;
+             }
+         </style>
+
+    </div>
+    
+    
+    
+</body>
+</html>
